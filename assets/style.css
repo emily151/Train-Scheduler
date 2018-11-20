@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css?family=Dancing+Script|Indie+Flower");
+
+.container {
+  max-width: 100%;
+}
+
+.jumbotron {
+  /* background: rgb(200, 54, 54); This is for ie8 and below */
+  background: rgba(255, 255, 255, 0.75);
+}
+
+.bg {
+  /* The image used */
+  background-image: url("images/train-1.jpg");
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.IndieFlower {
+  font-family: "Indie Flower", cursive;
+}
+
+.dancingScript {
+  font-family: "Dancing Script", cursive;
+}
+
+.table th {
+  border-top: none;
+}
+
+.form-control:focus {
+  border-color: gray;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+    0 0 8px rgba(49, 41, 41, 0.116);
+}
